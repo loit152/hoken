@@ -1,0 +1,42 @@
+#inimg{
+    padding-left: 5%;
+    width: 45%;
+    height: auto;
+    border-radius: 20px;  
+}
+#img {
+    width: 100%;
+    object-fit: cover;
+}
+#chart{
+    
+}
+body{
+    background-color: #203050;
+    height:2000px;
+}
+main{
+    border: solid 1px;
+}
+footer{
+    height:40px;
+    border: solid 1px;
+    
+}
+ .chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    height: 200px;
+    width: 300px;
+    border-left: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding: 10px;
+  }
+
+  .bar {
+    width: 40px;
+    background: steelblue;
+    height: 0;                 /* ← 初期は0 */
+    transition: height 0.8s ease-out;
+  }
